@@ -5,16 +5,7 @@ const todoControl = document.querySelector('.todo-control'),
       todoList = document.querySelector('.todo-list'),
       todoCompleted = document.querySelector('.todo-completed');
 
-let todoData = [
-  {
-    value: 'To make coffee',
-    completed: false
-  },
-  {
-    value: 'To wash hands',
-    completed: true
-  },
-];
+let todoData = [];
 
 // Get todoData from LocalStorage
 function getData(){
